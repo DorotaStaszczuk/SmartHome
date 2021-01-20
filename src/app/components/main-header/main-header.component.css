@@ -1,0 +1,30 @@
+header {
+  background-color: #FFFFFF;
+  color: #F1823E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+.user-icon {
+  height: 45px;
+  width: 45px;
+  margin-bottom: 10px;
+}
+
+.add-icon {
+  height: 45px;
+  width: 45px;
+}
