@@ -1,0 +1,17 @@
+
+.room-background {
+  background-color: #EAEAEA;
+  height: 100vh;
+}
+
+section {
+  background-color: #EAEAEA;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 30px 15px;
+  height: 100%;
+}
+
+
