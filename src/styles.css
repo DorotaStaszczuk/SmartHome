@@ -1,3 +1,6 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,5 +10,13 @@
 html,
 body {
   font-family: Lato;
-  height: 100%;
+  height: 100vh;
+}
+
+app-room-cover {
+  padding: 15px;
+}
+
+app-main, app-room-content {
+  height: 100vh;
 }
