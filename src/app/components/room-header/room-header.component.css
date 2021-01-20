@@ -1,0 +1,52 @@
+
+header {
+  background: linear-gradient(180deg, #F1823C 0%, #F29153 100%);
+  color: white;
+  padding: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.arrow {
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.temp, .humidity {
+  height: 50px;
+}
+
+.cog {
+  height: 30px;
+}
+
+.upp {
+  text-transform: uppercase;
+}
+
+.parameters-container,
+.temp-container,
+.humidity-container,
+.room-name-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.room-name-container {
+  padding-bottom: 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.temp-container,
+.humidity-container {
+  align-items: center;
+}
+
+.humidity-container {
+  padding-left: 25px;
+}
