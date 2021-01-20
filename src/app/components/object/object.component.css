@@ -1,0 +1,43 @@
+.object {
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.object-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.object-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+mat-slide-toggle {
+  padding: 10px;
+}
+
+mat-slider {
+  width: 70vw;
+  margin-left: 8px;
+}
+
+.lamp {
+  height: 60px;
+  padding-right: 20px;
+}
+
+p {
+  color: #b7b7b7;
+}
+
+
