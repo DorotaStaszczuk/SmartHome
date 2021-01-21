@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFirestore } from "@angular/fire/firestore";
 
 @Component({
   selector: 'app-room-cover',
@@ -8,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 
 export class RoomCoverComponent implements OnInit {
 
-  constructor() { }
+  constructor(private firestore: AngularFirestore) {}
 
   ngOnInit() {
+
   }
 
 }
