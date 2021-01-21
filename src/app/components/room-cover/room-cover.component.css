@@ -1,13 +1,14 @@
 
-.room-box {
+.room-container {
   background-color: white;
-  max-width: 40vw;
+  width: 35vw;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: stretch;
   padding: 15px;
   border-radius: 12px;
+  margin: 10px;
 }
 
 h2 {
